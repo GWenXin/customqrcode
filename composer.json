@@ -1,6 +1,7 @@
 {
     "name": "wenxin/customqrcode",
     "description": "This is a customize qrcode generator.",
+    "keywords": ["qrcode", "qrcodegenerator", "laravel", "customize"],
     "license" : "MIT",
     "type": "library",
     "authors": [
