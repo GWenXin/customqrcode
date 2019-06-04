@@ -82,12 +82,50 @@ interface QrCodeInterface
     public function encoding($encoding);
 
     /**
-     * Merges an image with the center of the QrCode.
+     * Sets the curve width and height of the qrcode.
      *
-     * @param $image string The filepath to an image
-     * @param $percentage float The percentage that the merge image should take up.
+     * @param int $curve_width
+     * @param int $curve_height
+     * 
+     * @return $this
+     */
+    public function curve($curve_width, $curve_height);
+
+    /**
+     * Merges an icon with the center of the QrCode.
+     *
+     * @param $icon string The filepath to an icon
      *
      * @return $this
      */
-    public function merge($image, $percentage = .2);
+    public function merge_icon($merge_icon);
+
+    /**
+     * Upload frame.
+     *
+     * @param $frame string The filepath to the frame
+     * 
+     */
+    public function frame($frame);
+
+    /**
+     * Sets the size of the frame width and height.
+     *
+     * @param int $frame_width
+     * @param int $frame_height
+     * 
+     * @return $this
+     */
+    public function frame_size($frame_width, $frame_height);
+
+    /**
+     * Sets the position x and position y of merge qrcode in the frame.
+     *
+     * @param int $position_x
+     * @param int $ position_y
+     * 
+     * @return $this
+     */
+    public function position_x($position_x, $position_y);
+
 }
