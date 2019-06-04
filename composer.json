@@ -1,6 +1,6 @@
 {
     "name": "wenxin/customqrcode",
-    "description": "This a Customize QRCODE Generator.",
+    "description": "This a customize QR code generator.",
     "keywords": ["qrcode", "qrcodegenerator", "laravel", "customize"],
     "license" : "MIT",
     "authors": [
