@@ -126,6 +126,6 @@ interface QrCodeInterface
      * 
      * @return $this
      */
-    public function position_x($position_x, $position_y);
+    public function position($position_x, $position_y);
 
 }
