@@ -1,5 +1,5 @@
 <?php
-namespace Wenxin\Customqrcode\Facades;
+namespace Wenxin\customqrcode\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
