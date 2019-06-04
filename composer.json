@@ -3,15 +3,14 @@
     "description": "This a customize qr code generator.",
     "type": "library",
     "require": {
-        "php": "^7.1",
-      	"ext-gd": "^7.1",
-        "bacon/bacon-qr-code": "^2.0",
-        "illuminate/support": "^5.8",
-		"intervention/image": "^2.4"
+        "php": ">=7.0",
+      	"ext-gd": "*",
+        "bacon/bacon-qr-code": "1.0.*",
+        "illuminate/support": ">=5.0.0"
     },
     "require-dev": {
-        "mockery/mockery": "^1.2",
-        "phpunit/phpunit": "^7.5"
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~6"
     },
     "license": "MIT",
     "authors": [
