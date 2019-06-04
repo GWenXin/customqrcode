@@ -1,6 +1,8 @@
 <?php
 namespace Wenxin\Customqrcode;
+
 use Illuminate\Support\ServiceProvider;
+
 class QrCodeServiceProvider extends ServiceProvider
 {
     /**
