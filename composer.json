@@ -1,5 +1,5 @@
 {
-    "name": "wenxin\customqrcode",
+    "name": "wenxin/customqrcode",
     "description": "Simple QrCode is a QR code generator made for Laravel.",
     "keywords": ["qrcode", "qrcodegenerator", "laravel", "customize"],
     "license" : "MIT",
