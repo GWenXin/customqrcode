@@ -1,8 +1,8 @@
 {
     "name": "wenxin/customqrcode",
     "description": "This is a customize qrcode generator.",
-    "keywords": ["qrcode", "laravel", "simple", "generator", "wrapper"],
     "license" : "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "wenxin",
@@ -10,14 +10,15 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-      	"ext-gd": "*",
-        "bacon/bacon-qr-code": "1.0.*",
-        "illuminate/support": ">=5.0.0"
+        "php": "^7.1",
+      	"ext-gd": "^7.1",
+        "bacon/bacon-qr-code": "^2.0",
+        "illuminate/support": "^5.8",
+		"intervention/image": "^2.4"
     },
     "require-dev": {
-        "mockery/mockery": "0.9.*",
-        "phpunit/phpunit": "~6"
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.5"
     },
     "autoload": {
         "psr-0": {
