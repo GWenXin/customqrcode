@@ -1,7 +1,7 @@
 {
     "name": "wenxin/customqrcode",
-    "description": "This is a customize qrcode generator.",
-    "keywords": ["qrcode", "laravel", "customize", "generator", "icon"],
+    "description": "Simple QrCode is a QR code generator made for Laravel.",
+    "keywords": ["qrcode", "customize", "generator", "icon"],
     "license" : "MIT",
     "authors": [
         {
