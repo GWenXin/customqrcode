@@ -279,7 +279,7 @@ class BaconQrCodeGenerator implements QrCodeInterface
                 $curve_height, // height
                 Imagick::CHANNEL_DEFAULT
             );
-            Storage::disk('public')->put('qr.png', $imagick);
+            Storage::disk('public')->put('qrcurve.png', $imagick);
 
         //return $this;
         return $imagick;
@@ -362,7 +362,7 @@ class BaconQrCodeGenerator implements QrCodeInterface
         //image 2
         $path_2 = 'QRHasLogo.png'; //$path_2 = $imagick;
         
-        //imagecreatefrompng($filename)--由文件或 URL 创建一个新图象
+        //imagecreatefrompng($filename)
         $image_1 = imagecreatefromstring(file_get_contents($path_1));
         $image_2 = imagecreatefromstring(file_get_contents($path_2));             
         
