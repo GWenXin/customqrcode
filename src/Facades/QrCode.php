@@ -1,6 +1,6 @@
 <?php
 
-namespace Wenxin\Customqrcode\Facades;
+namespace SimpleSoftwareIO\QrCode\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
