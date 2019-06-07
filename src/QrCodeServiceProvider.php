@@ -1,4 +1,5 @@
 <?php
+
 namespace Wenxin\Customqrcode;
 
 use Illuminate\Support\ServiceProvider;
@@ -11,6 +12,7 @@ class QrCodeServiceProvider extends ServiceProvider
      * @var bool
      */
     protected $defer = true;
+
     /**
      * Register the service provider.
      */
@@ -20,6 +22,7 @@ class QrCodeServiceProvider extends ServiceProvider
             return new BaconQrCodeGenerator();
         });
     }
+
     /**
      * Get the services provided by the provider.
      *
