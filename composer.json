@@ -14,7 +14,7 @@
       	"ext-gd": "^7.1",
         "bacon/bacon-qr-code": "^2.0",
         "illuminate/support": "^5.8",
-	    "intervention/image": "^2.4"
+	"intervention/image": "^2.4"
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
