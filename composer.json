@@ -1,7 +1,7 @@
 {
-    "name": "simplesoftwareio/simple-qrcode",
+    "name": "wenxin/customqrcode",
     "description": "Simple QrCode is a QR code generator made for Laravel.",
-    "keywords": ["qrcode","generator","qrcode generator", "merge", "icon", "frame", "laravel"],
+    "keywords": ["qrcode", "customize", "generator", "icon"],
     "license" : "MIT",
     "authors": [
         {
@@ -14,14 +14,14 @@
       	"ext-gd": "^7.1",
         "bacon/bacon-qr-code": "^2.0",
         "illuminate/support": "^5.8",
-	    "intervention/image": "^2.4"
+	"intervention/image": "^2.4"
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
         "phpunit/phpunit": "^7.5"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Wenxin\\Customqrcode\\": "src"
         }
     },
